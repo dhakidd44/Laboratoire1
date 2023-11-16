@@ -1,11 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Affichage de Donnees</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+Wy8tWvATi0KIIlZVGLad+TEUqemIbA6jA2" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="your-integrity-value" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <div class="container mt-4">
+        <h1>Données à partir des endpoints de l'API</h1>
+
+        <div id="restaurants-container">
+            <h2>Liste des Restaurants:</h2>
+            <ul id="restaurants-list"></ul>
+        </div>
+
+        <div id="dishes-container">
+            <h2>Liste des Plats:</h2>
+            <ul id="dishes-list"></ul>
+        </div>
+        <div id="servers-container">
+            <h2>Liste des Serveurs:</h2>
+            <ul id="servers-list"></ul>
+        </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>
